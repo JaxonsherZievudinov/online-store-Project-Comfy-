@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 30px;
+    align-items: center;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    width: 22%;
+    align-items: center;
+}
+.text h1{
+       font-size:22px;
+       color:black;
+       font-family:sans-serif;
+       font-weight:500;
+       /* color: white; */
+}
+/* .home{
+    background: url(/images/Rectangle\ 37.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    /* margin-top: -40px; */
+    /* z-index: 0; */
+/* } */ */
+.imgcom{
+   width: 110px;
+   height: 60px;
+   margin-left: -150px;
+}
+.korzina{
+    display: flex;
+}
+.korzina i{
+    color: black;
+    font-size: 40px;
+    /* background-color: white; */
+    position: relative;
+}
+.kolvo{
+    padding: 1px 7px;
+    text-align: center;
+    background-color: rgb(92, 62, 7);
+    font-size: 18px;
+    position: absolute;
+    margin-left:35px;
+    border-radius: 50%;
+    color: white;
+
+}
+.sec1{
+    /* border: 1px solid black; */
+    margin-top: 70px;
+    /* margin-left: 10%; */
+    background: #F1F5F8;
+    padding-left: 10%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    height: 150px;
+
+}
+.sec1 h1{
+    font-size: 40px;
+    color: #235275;
+    /* font-family: sans-serif; */
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.se1di{
+ display: flex;
+ padding-top: 50px;
+}
+.sec1 h2{
+    font-size: 40px;
+    color: #235275;
+    font-style: 500;
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+.sec1 button{
+    width: 130px;
+    height: 42px;
+    background-color:transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-align: center;
+    border-radius:6px ;
+}
+.sec2{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 70px;
+}
+.seclef{
+    /* background-color: red; */
+    width: 20%;
+    height: 600px;
+    padding: 40px;
+    /* margin: 20px; */
+}
+.earch{
+    width: 220px;
+    height: 30px;
+    background: #F1F5F8;
+   border: none;
+   padding-left: 20px;
+   color: grey;
+   font-size: 16px;
+}
+.seclef h1{
+    font-size: 30px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.seclef h2{
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.seclef p{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #235275;
+    margin-top: 20px;
+}
+.range{
+    width: 220px;
+    font-size: 90px;
+    height: 50px;
+}
+.seclef h4{
+    color: #235275;
+    font-size: 27px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: -10xp;
+}
+.secrig{
+
+    /* background-color: blue; */
+    width: 73%;
+    height: 600px;
+}
+.displ{
+    display: flex;
+    margin-left: 35%;
+}
+.displ h1{
+    font-size: 40px;
+    font-family: Montserrat    ;
+    font-weight: 700;
+    margin-left: 20px;
+    color: black;
+}
+.displ p{
+    font-size: 45px;
+    color: #BA5D2C;
+    font-weight: 900;
+}
+.PRODUCTS{
+    background: #BA5D2C;
+    font-size: 18px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    margin-left: 35%;
+    color: white;
+    margin-top: 30px;
+    margin-bottom:100px;
+}
+.box1{
+    display:flex;
+    justify-content:space-between;
+    width:90%;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+.secrig{
+    display:flex;
+    justify-content:space-between;
+    width:90%;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+.card{
+    width:370px;
+    height:330px;
+}
+.img{
+    width:350px;
+    height:200px;
+
+}
+.name{
+    font-size:25px;
+    color:grey;
+    margin-top:20px;
+    margin-left:90px;
+    margin-bottom:10px;
+}
+.price{
+    font-size:22px;
+    color:black;
+    font-weight:600;
+    margin-left:135px;
+}
+.sec22{
+    /* border:1px solid red; */
+    width:80%;
+    margin-left:10%;
+    margin-top:90px;
+}
+.kjhg{
+    display:flex;
+    align-items:center;
+    margin-left:540px;
+}
+.text a:visited{
+    text-decoration:none;
+    color:black;
+}
+.sec22 h1{
+    color:orange;
+    font-size:60px;
+    margin-right:20px;
+}
+.sec22 h2{
+    font-size:40px;
+}
+.sec22 p{
+    font-size:20px;
+    margin-left:230px;
+    width:920px;
+    font-family:sans-serif;
+    margin-top:20px;
+    color:rgb(46, 46, 139);
+}

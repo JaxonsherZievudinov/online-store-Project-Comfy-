@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 30px;
+    align-items: center;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    width: 22%;
+    align-items: center;
+}
+.text h1{
+       font-size:22px;
+       color:black;
+       font-family:sans-serif;
+       font-weight:500;
+       color: white;
+}
+.text h1:first-child{
+    font-size:22px;
+    color:black;
+    font-family:sans-serif;
+    font-weight:500;
+    margin-left:20px;
+    color: white;
+}
+.text a:visited{
+    text-decoration:none;
+    color:white;
+}
+.home{
+    background: url(/images/Rectangle\ 37.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    /* margin-top: -40px; */
+    z-index: 0;
+}
+.imgcom{
+   width: 110px;
+   height: 60px;
+   margin-left: -150px;
+}
+.korzina{
+    display: flex;
+}
+.korzina i{
+    color: white;
+    font-size: 40px;
+    /* background-color: white; */
+    position: relative;
+}
+.kolvo{
+    padding: 1px 7px;
+    text-align: center;
+    background-color: rgb(92, 62, 7);
+    font-size: 18px;
+    position: absolute;
+    margin-left:35px;
+    border-radius: 50%;
+    color: white;
+
+}
+.sec1{
+    /* border: 1px solid black; */
+    margin-top: 100px;
+    margin-left: 10%;
+}
+.sec1 h1{
+    font-size: 60px;
+    color: white;
+    /* font-family: sans-serif; */
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.sec1 p{
+    font-size: 29px;
+    color: white;
+    font-family: sans-serif;
+    font-style: 400;
+    margin-bottom: 20px;
+}
+.sec1 button{
+    width: 130px;
+    height: 42px;
+    background-color:transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-align: center;
+    border-radius:6px ;
+}
+.sec2{
+    margin-top: 50px;
+    margin-left: 10%;
+}
+.displ{
+    display: flex;
+    margin-left: 35%;
+}
+.displ h1{
+    font-size: 40px;
+    font-family: Montserrat    ;
+    font-weight: 700;
+    margin-left: 20px;
+    color: black;
+}
+.displ p{
+    font-size: 45px;
+    color: #BA5D2C;
+    font-weight: 900;
+}
+.PRODUCTS{
+    background: #BA5D2C;
+    font-size: 18px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    margin-left: 35%;
+    color: white;
+    margin-top: 30px;
+    margin-bottom:100px;
+}
+.PRODUCTS:visited{
+    text-decoration:none;
+    color:white;
+}
+.box1{
+    display:flex;
+    justify-content:space-between;
+    width:90%;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+.card{
+    width:370px;
+    height:330px;
+}
+.img{
+    width:350px;
+    height:200px;
+
+}
+.name{
+    font-size:25px;
+    color:grey;
+    margin-top:20px;
+    /* margin-left:90px; */
+    margin-bottom:10px;
+    /* border:1px solid red; */
+    width:350px;
+    text-align:center;
+}
+.price{
+    font-size:22px;
+    color:black;
+    font-weight:600;
+    /* margin-left:135px; */
+    width:350px;
+    text-align:center;
+}
+.card1{
+    border:1px solid red;
+    width:200px;
+}
+.img10{
+    width:300px;
+    height:300px;
+}
+
+
